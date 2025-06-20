@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+
+@layer base {
+  *, ::before, ::after {
+    box-sizing: border-box;
+    
+  }
+  
+}
+@font-face {
+  font-family: stolzl;
+  src: url("/font/stolzl_regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-stolzl: stolzl, "sans-serif";
+}
+@font-face {
+  font-family: stolzl;
+  src: url("/font/stolzl_light.ttf");
+  font-weight: 300;
+  font-style: light;
+  font-display: swap;
+}
+@font-face {
+  font-family: stolzl;
+  src: url("/font/stolzl_medium.ttf");
+  font-weight: 500;
+  font-style: medium;
+  font-display: swap;
+}
+
+
